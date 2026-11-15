@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="660" viewBox="0 0 1250 660">
+<rect width="1250" height="660" fill="#ffffff"/>
+<text x="40" y="34" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f3b57">Student Course Registration - System Architecture</text>
+<rect x="40" y="130" width="230" height="110" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="155.0" y="180.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#222222">Browser</text>
+<text x="155.0" y="198.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">Vue 3 + Element Plus (SPA)</text>
+<rect x="340" y="130" width="230" height="110" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="455.0" y="180.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#222222">Vite Dev Server :5173</text>
+<text x="455.0" y="198.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">proxy /api</text>
+<rect x="640" y="90" width="290" height="190" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="785.0" y="162.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#222222">FastAPI :8000</text>
+<text x="785.0" y="180.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">routers: auth / students /</text>
+<text x="785.0" y="198.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">courses / enrollments</text>
+<text x="785.0" y="216.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">Pydantic validation</text>
+<rect x="640" y="350" width="290" height="90" rx="8" fill="#ffe6cc" stroke="#d79b00" stroke-width="1.5"/>
+<text x="785.0" y="390.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#222222">SQLAlchemy 2.0 ORM</text>
+<text x="785.0" y="408.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">models.py / schemas.py</text>
+<rect x="640" y="510" width="290" height="90" rx="8" fill="#ffe6cc" stroke="#d79b00" stroke-width="1.5"/>
+<text x="785.0" y="541.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#222222">SQLite</text>
+<text x="785.0" y="559.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">backend/students.db</text>
+<text x="785.0" y="577.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">PRAGMA foreign_keys=ON</text>
+<rect x="1000" y="110" width="210" height="110" rx="8" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5"/>
+<text x="1105.0" y="160.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#222222">JWT (HS256)</text>
+<text x="1105.0" y="178.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">PBKDF2 password hash</text>
+<rect x="1000" y="330" width="210" height="150" rx="8" fill="#f5f5f5" stroke="#666666" stroke-width="1.5"/>
+<text x="1105.0" y="373.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#222222">scripts/</text>
+<text x="1105.0" y="391.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">seed.py</text>
+<text x="1105.0" y="409.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">migrate_normalize.py</text>
+<text x="1105.0" y="427.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">generate_data.py</text>
+<text x="1105.0" y="445.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#222222">benchmark.py</text>
+<polyline points="270,185 340,185" fill="none" stroke="#555555" stroke-width="1.4"/>
+<polygon points="340,185 331,189 331,181" fill="#555555"/>
+<rect x="273.0" y="164" width="64.0" height="13" fill="#ffffff" opacity="0.95"/>
+<text x="305" y="173" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#333333">HTTP :5173</text>
+<polyline points="570,185 640,185" fill="none" stroke="#555555" stroke-width="1.4"/>
+<polygon points="640,185 631,189 631,181" fill="#555555"/>
+<rect x="575.8" y="164" width="58.4" height="13" fill="#ffffff" opacity="0.95"/>
+<text x="605" y="173" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#333333">REST /api</text>
+<polyline points="785,280 785,350" fill="none" stroke="#555555" stroke-width="1.4"/>
+<polygon points="785,350 781,341 789,341" fill="#555555"/>
+<rect x="754.0" y="306" width="92.0" height="13" fill="#ffffff" opacity="0.95"/>
+<text x="800" y="315" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#333333">session queries</text>
+<polyline points="785,440 785,510" fill="none" stroke="#555555" stroke-width="1.4"/>
+<polygon points="785,510 781,501 789,501" fill="#555555"/>
+<rect x="787.6" y="466" width="24.799999999999997" height="13" fill="#ffffff" opacity="0.95"/>
+<text x="800" y="475" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#333333">SQL</text>
+<polyline points="930,185 1000,185" fill="none" stroke="#555555" stroke-width="1.4"/>
+<polygon points="1000,185 991,189 991,181" fill="#555555"/>
+<rect x="921.8" y="164" width="86.39999999999999" height="13" fill="#ffffff" opacity="0.95"/>
+<text x="965" y="173" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#333333">token / verify</text>
+<polyline points="1000,455 1000,555 930,555" fill="none" stroke="#555555" stroke-width="1.4"/>
+<polygon points="930,555 939,551 939,559" fill="#555555"/>
+<rect x="899.4" y="534" width="131.2" height="13" fill="#ffffff" opacity="0.95"/>
+<text x="965" y="543" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#333333">DDL / seed / benchmark</text>
+</svg>
