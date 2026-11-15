@@ -4,6 +4,9 @@
 
 > 技术栈：FastAPI + Vue 3 + Element Plus + SQLite
 
+> 代码仓库：https://github.com/N1KO-l/course-registration
+> 演示视频：待补充（录好后替换为实际链接）
+
 ---
 
 ## 目录
